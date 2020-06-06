@@ -1,0 +1,50 @@
+body{
+    background-color: #FBC396;
+    width: 700px;
+    margin: 10% auto;
+}
+
+.container {
+    text-align: center;
+    position: relative;
+}
+
+.white-keys kbd {
+    display: inline-block;
+    background-color: white;
+    border: 3px solid grey;
+    height: 250px;
+    width: 80px;
+    margin-left: -10px;
+    font-size: 120%;
+    line-height: 420px;
+}
+
+.black-keys {
+    position: absolute;
+    top: 0;
+    left: 90px;
+    color: white;
+    font-size: 100%;
+    line-height: 220px;
+}
+
+.black-keys kbd{
+    height: 170px;
+    width: 40px;
+    background-color: black;
+    display: inline-block;
+    margin-left: 35px;
+}
+
+.black-keys kbd:nth-child(3) {
+    margin-left: 115px;
+}
+
+kbd:after {
+    background: darkgrey;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+    outline: none;
+}
