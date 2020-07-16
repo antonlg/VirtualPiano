@@ -8,7 +8,7 @@ document.addEventListener("keydown", function(event){
     if (pianoBlackKeys.includes(event.code))
         soundSource = "black_keys/";
     if(soundSource != ""){
-        let sound = new Audio("../../" + soundSource + "/" + (event.key).toUpperCase() + ".mp3");
+        let sound = new Audio(soundSource + "/" + (event.key).toUpperCase() + ".mp3");
         sound.play();
     }
 });
